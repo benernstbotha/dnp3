@@ -22,7 +22,7 @@ Rust implementation of DNP3 (IEEE 1815) with idiomatic bindings for C, C++, .NET
 
 Default features can be disabled at compile time:
 * `tls` - Build the library with support for mutually authenticated TLS using [ring](https://crates.io/crates/ring) for cryptography.
-* `tls-aws-lc` - Sames as the `tls` feature but uses [aws-lc-rs](https://crates.io/crates/aws-lc-rs) for cryptography.
+* `tls-aws-lc` - Same as the `tls` feature but uses [aws-lc-rs](https://crates.io/crates/aws-lc-rs) for cryptography.
 * `serial` - Build the library with support for serial ports
 
 Optional features that may be enabled at compile time:
